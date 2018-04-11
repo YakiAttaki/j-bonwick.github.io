@@ -1,2 +1,6 @@
-title: J.Bonwick
-description: My projects
+---
+title: This is my title
+layout: post
+---
+
+Here is my page.
