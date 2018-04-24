@@ -5,6 +5,26 @@ body {
   background-color: rgb(49, 49, 49);
   color:rgb(209, 209, 209)
 }
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(49, 49, 49); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/*#region NavBar*/
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -17,6 +37,7 @@ nav ul {
 }
 nav li {
   float: left;
+  width: 150px;
 }
 nav a {
   display: block;
@@ -31,7 +52,18 @@ nav li a:hover:not(.active) {
 .active {
   background-color: rgb(49, 49, 49)
 }
+/*#endregion */
 div.container {
   margin-top: 30px;
   padding: 20px;
+}
+table.projects {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(49, 49, 49);
+}
+table.projects tr {
+  height: 100px; 
+  background-color: rgb(60, 60, 60); 
 }
