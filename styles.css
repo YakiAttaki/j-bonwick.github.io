@@ -50,7 +50,7 @@ nav li a:hover:not(.active) {
   background-color: rgb(80, 80, 80)
 }
 .active {
-  background-color: rgb(49, 49, 49)
+  background-color: #2CB0FC;
 }
 /*#endregion */
 div.container {
