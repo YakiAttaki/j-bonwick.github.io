@@ -6,25 +6,6 @@ body {
   background-color: rgb(237, 237, 237);
   color:rgb(0, 0, 0)
 }
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(49, 49, 49); 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
 /*#region NavBar*/
 nav ul {
   list-style-type: none;
@@ -47,6 +28,11 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;  
 }
 nav li a:hover:not(.active) {
   background-color: rgb(224, 0, 0)
