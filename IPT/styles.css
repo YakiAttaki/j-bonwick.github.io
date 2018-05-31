@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(237, 237, 237);
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
 }
 /*#region NavBar*/
 nav ul {
@@ -40,10 +40,11 @@ nav li a:hover:not(.active) {
 .active {
   background-color: rgb(224, 0, 0);;
 }
-/*#endregion */
+/*#endregion */ 
 div.container {
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 50px;
+  padding: 0px;
+  background-image: url("../Images/green_neb.png")
 }
 html {
   min-height: 100%;
@@ -65,4 +66,19 @@ div.footer li {
 div.footer a {
   text-decoration:none;
   color: white;
+}
+table.table-left-right {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+table.table-left-right tr.left {
+  height: 100px; 
+  background-color: rgb(255, 255, 255); 
+}
+table.table-left-right tr.right {
+  height: 100px;
+  background-color: rgb(211, 211, 211); 
 }
