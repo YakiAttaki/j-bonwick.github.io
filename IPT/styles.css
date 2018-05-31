@@ -42,9 +42,10 @@ nav li a:hover:not(.active) {
 }
 /*#endregion */ 
 div.container {
-  margin-top: 50px;
+  margin-top: 45px;
   padding: 0px;
-  background-image: url("../Images/green_neb.png")
+  /*background-image: url("../Images/green_neb.png");*/
+  height: 100%;
 }
 html {
   min-height: 100%;
