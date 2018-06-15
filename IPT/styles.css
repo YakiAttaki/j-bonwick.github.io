@@ -47,6 +47,17 @@ div.container {
   /*background-image: url("../Images/green_neb.png");*/
   height: 100%;
 }
+div.container-top {
+  height: 400px;
+  background-color: black;
+  background-image: url("../Images/green_neb.png");
+  object-fit:
+}
+div.container-top h1 {
+  text-align: left;
+  padding-left: 80px;
+  color: beige;
+}
 html {
   min-height: 100%;
   position: relative;
@@ -68,18 +79,18 @@ div.footer a {
   text-decoration:none;
   color: white;
 }
-table.table-left-right {
+table.left-right {
   border-collapse: collapse;
   width: 100%;
   margin: 0;
   padding: 0;
   background-color: rgb(255, 255, 255);
 }
-table.table-left-right tr.left {
-  height: 100px; 
+table.left-right tr.left {
+  height: 300px; 
   background-color: rgb(255, 255, 255); 
 }
-table.table-left-right tr.right {
-  height: 100px;
-  background-color: rgb(211, 211, 211); 
+table.left-right tr.right {
+  height: 300px;
+  background-color: rgb(175, 61, 61); 
 }
