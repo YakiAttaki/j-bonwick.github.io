@@ -40,6 +40,13 @@ nav li a:hover:not(.active) {
 .active {
   background-color: rgb(224, 0, 0);;
 }
+li.Logo {
+  height: 40px;
+  padding: 10px;
+}
+img.NavLogo {
+  height: 100%;
+}
 /*#endregion */ 
 div.container {
   margin-top: 45px;
@@ -51,7 +58,6 @@ div.container-top {
   height: 400px;
   background-color: black;
   background-image: url("../Images/green_neb.png");
-  object-fit:
 }
 div.container-top h1 {
   text-align: left;
