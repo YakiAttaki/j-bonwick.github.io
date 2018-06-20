@@ -1,37 +1,45 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #0B466B;
   color:rgb(243, 237, 237);
 }
 /*#region NavBar*/
-
 div.header {
+  height:54px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(158, 0, 0);
+  top: 0;
+  position: fixed;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav ul {
-  display: inline-block;
-  list-style-type: none;
+  height: 54px;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(158, 0, 0);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
   text-align: center;
+  display: inline-block;
+  list-style-type: none;
 }
 nav li {
+  padding: 0;
+  list-style-type: none;
+  padding: 0;
   float: left;
-  width: 150px;
+  display: inline;
 }
 nav a {
+  height: 24px;
+  width:80px;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 40px;
+  font-size: 20px;
   text-decoration: none;
   -webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -45,45 +53,36 @@ nav li a:hover:not(.active) {
 .active {
   background-color: rgb(224, 0, 0);;
 }
-li.Logo {
-  height: 31px;
-  width: 44px;
-  padding: 7px;
-  background-color: rgb(255, 0, 0);
-}
 img.NavLogo {
-  height: 100%;
+  vertical-align: top;
+  padding: 8px;
+  height: 38px;
 }
 /*#endregion */ 
 div.container {
-  margin-top: 45px;
-  padding: 0px;
+  margin-top: 54px;
+  padding: 50px;
   /*background-image: url("../Images/green_neb.png");*/
   height: 100%;
   text-align: center;
 }
-div.container-top {
-  height: 400px;
-  background-color: black;
-  background-image: url("../Images/green_neb.png");
-}
-div.container-top h1 {
-  color: greenyellow;
-  padding-left: 50px;
-  width: 50%;
-  padding: 180px 0;
+div.container-top p {
+  color: black;
   text-align: left;
 }
 div.container-top-home {
+  background: url("/Images/datacenter_grey.png") no-repeat center center;
   margin-top: 45px;
-  height:400px;
-  background-color: #0C95EA;
+  height:1000px;
 }
 div.container-top-home h1 {
   color: rgb(255, 255, 255);
   text-align: center;
   line-height: 400px;
   font-size: 65px;
+}
+table.products {
+  padding: 30px;
 }
 html {
   min-height: 100%;
@@ -120,4 +119,60 @@ table.left-right tr.left {
 table.left-right tr.right {
   height: 300px;
   background-color: rgb(175, 61, 61); 
+}
+
+
+
+.columns {
+  float: left;
+  width: 31%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid rgb(43, 43, 43);
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: rgb(224, 0, 0);
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid rgb(37, 37, 37);
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
 }
