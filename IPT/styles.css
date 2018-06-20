@@ -7,6 +7,9 @@ body {
   color:rgb(243, 237, 237);
 }
 /*#region NavBar*/
+
+div.header {
+}
 nav ul {
   display: inline-block;
   list-style-type: none;
@@ -57,6 +60,7 @@ div.container {
   padding: 0px;
   /*background-image: url("../Images/green_neb.png");*/
   height: 100%;
+  text-align: center;
 }
 div.container-top {
   height: 400px;
