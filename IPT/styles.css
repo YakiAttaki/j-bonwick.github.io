@@ -3,11 +3,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgb(237, 237, 237);
-  color:rgb(0, 0, 0);
+  background-color: #0B466B;
+  color:rgb(243, 237, 237);
 }
 /*#region NavBar*/
 nav ul {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ nav ul {
   top: 0;
   width: 100%;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 nav li {
   float: left;
@@ -41,8 +43,10 @@ nav li a:hover:not(.active) {
   background-color: rgb(224, 0, 0);;
 }
 li.Logo {
-  height: 40px;
-  padding: 10px;
+  height: 31px;
+  width: 44px;
+  padding: 7px;
+  background-color: rgb(255, 0, 0);
 }
 img.NavLogo {
   height: 100%;
@@ -60,9 +64,22 @@ div.container-top {
   background-image: url("../Images/green_neb.png");
 }
 div.container-top h1 {
+  color: greenyellow;
+  padding-left: 50px;
+  width: 50%;
+  padding: 180px 0;
   text-align: left;
-  padding-left: 80px;
-  color: beige;
+}
+div.container-top-home {
+  margin-top: 45px;
+  height:400px;
+  background-color: #0C95EA;
+}
+div.container-top-home h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 400px;
+  font-size: 65px;
 }
 html {
   min-height: 100%;
