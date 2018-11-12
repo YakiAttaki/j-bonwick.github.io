@@ -71,7 +71,7 @@ div.container-top p {
   text-align: left;
 }
 div.container-top-home {
-  background: url("/Images/datacenter_grey.png") no-repeat center center;
+  background: url("Images/datacenter_grey.png") no-repeat center center;
   margin-top: 45px;
   height:1000px;
 }
